@@ -50,7 +50,7 @@ function Env(t, e) {
                 "undefined" != typeof module && module.exports ? "Node.js" : 
                 "undefined" != typeof $task ? "Quantumult X" : 
                 "undefined" != typeof $loon ? "Loon" : 
-                "undefined" != typeof $rocket ? "Shadowrocket" : 
+                "undefined" != typeof $rocket ? "Shadowrocket" : void 0 
         }
 
         isNode() { return "Node.js" === this.getEnv() }
